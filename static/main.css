@@ -1,0 +1,100 @@
+body{
+
+	background-color:#111111;
+	margin: 0; 
+	padding: 0;
+}
+
+#logo{
+	position: absolute;
+	margin-top: -7px;
+	margin-left: 15px;
+	background-image:url('/img/twitchViewerLogo.png');
+	background-repeat: no-repeat;
+	width: 183px;
+	height: 50px;
+}
+
+#header{
+	min-width:1100px;
+	width: auto;
+	height: 35px;
+	background-image: url('/img/topBarBg.png');
+}
+
+#wrapper{
+	top: 50px;
+	width: 1602px;
+	height: 958px;
+	background-color: #444444;
+	margin: auto;
+	border-left: 2px solid #444444;
+	border-right: 2px solid #444444;
+	border-bottom: 2px solid #444444;
+}
+
+.streamOne{
+	position: absolute;
+	width: 800px;
+	height: 478px;
+	background-color: black;
+	color: white;
+}
+
+.streamTwo{
+	position: absolute;
+	width: 800px;
+	height: 478px;
+	background-color: black;
+	margin-left:802px;
+	color: white;
+}
+
+.streamThree{
+	position: absolute;
+	width: 800px;
+	height: 478px;
+	margin-top: 480px;
+	background-color: black;
+	color: white;	
+}
+
+.streamFour{
+	position: absolute;
+	width: 800px;
+	height: 478px;
+	margin-top:480px;
+	margin-left:802px;
+	background-color: black;
+	color: white;	
+}
+
+#streamOneForm{
+	position: absolute;
+	margin-left: 250px;
+	margin-top: 220px;
+}
+
+#streamTwoForm{
+	position: absolute;
+	margin-left: 250px;
+	margin-top: 220px;
+}
+
+#streamThreeForm{
+	position: absolute;
+	margin-left: 250px;
+	margin-top: 220px;
+}
+
+#streamFourForm{
+	position: absolute;
+	margin-left: 250px;
+	margin-top: 220px;
+}
+
+.submitButton{
+	position: absolute;
+	margin-top: -30px;
+	margin-left: 1488px;
+}

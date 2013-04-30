@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	<link type="text/css" rel="stylesheet" href="/static/main.css"/>
+	<script type="text/javascript" src="/static/javascript.js"></script>
+	<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<title>TwitchViwer</title>
+	<meta name="description" content="Twitch.tv multi-stream viewer. Watch multiple streams from twitch.tv without logging in!">
+</head>
+
+<body>
+<div id="header">
+
+	<div id="logo"></div>
+	<div id="currentStreams"></div>
+
+</div><!--End of header-->
+
+<div id="wrapper">
+
+	<div class="streamOne">
+
+	<form name="mainForm" onsubmit="return required()">
+
+
+
+	<input id="streamOneForm" type="text" size="50" name="streamOneFunc" value=""/>
+
+	<div id="streamOneEmbedded"></div>
+
+	</div><!--End of streamOne-->
+
+
+
+	<div class="streamTwo">
+
+
+	<input id="streamTwoForm" type="text" size="50" name="streamTwoFunc" value=""/>
+
+	<div id="streamTwoEmbedded"></div>
+
+	</div><!--End of streamTwo-->
+
+
+
+	<div class="streamThree">
+
+
+	<input id="streamThreeForm" type="text" size="50" name="streamThreeFunc" value=""/>
+
+	<div id="streamThreeEmbedded"></div>
+
+
+	</div><!--End of streamThree-->
+
+
+
+	<div class="streamFour">
+
+	<input id="streamFourForm" type="text" size="50" name="streamFourFunc" value=""/>
+
+	<div id="streamFourEmbedded"></div>
+
+
+
+	</div><!--End of streamFour-->
+
+	<input class="submitButton" type="submit" value="View Stream(s)">
+
+
+	</form>
+
+
+	<form action="/"><input style="position: absolute; margin-top:-30px; margin-left:1410px;" type="submit" value="Refresh"></form> 
+</div><!--End of wrapper-->
+<center><font style="color: gray;">Enter the Twitch.tv URL into the fields above. (Example: http://www.twitch.tv/dreamhackTV)</font></center>
+<div>
+</body>
+</html>
